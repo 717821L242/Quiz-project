@@ -1,0 +1,83 @@
+.container {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+.quiz {
+	border: 1px solid #ccc;
+	padding: 20px;
+	margin-bottom: 20px;
+}
+
+.question {
+	margin-bottom: 20px;
+}
+
+.question p {
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.question ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.question li {
+	margin-bottom: 10px;
+}
+
+.buttons {
+	margin-top: 20px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.buttons button {
+	padding: 10px;
+	background-color: #4CAF50;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.buttons button:disabled {
+	background-color: #ccc;
+	cursor: not-allowed;
+}
+
+.progress {
+	height: 10px;
+	background-color: #ccc;
+	margin-bottom: 20px;
+}
+
+.bar {
+	height: 100%;
+	background-color: #4CAF50;
+	width: 0%;
+}
+
+.score {
+	margin-top: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.score p {
+	margin-bottom: 10px;
+}
+
+.score span {
+	font-weight: bold;
+	font-size: 24px;
+}
+
+#feedback {
+	font-weight: bold;
+	font-size: 18px;
+}
